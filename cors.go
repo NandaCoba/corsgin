@@ -2,7 +2,7 @@ package corsgin
 
 import "github.com/gin-gonic/gin"
 
-func CORSMiddleware(c *gin.Context) any {
+func Cors(c *gin.Context) any {
 	return func() {
 		c.Header("Access-Control-Allow-Origin", "*")
 		c.Header("Access-Control-Allow-Headers", "Origin, Content-Type, Accept, Authorization")
