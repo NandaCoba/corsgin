@@ -1,4 +1,4 @@
-module corsgin
+module github.com/NandaCoba/corsgin
 
 go 1.24.0
 
